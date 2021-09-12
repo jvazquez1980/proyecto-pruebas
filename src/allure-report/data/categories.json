@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=92.0.4515.131)\n\n",
+      "children" : [ {
+        "name" : "Comprar producto baby shower sin error mail",
+        "uid" : "594f1ab977ccce9a",
+        "parentUid" : "d0ccfd5ee6118bd81c0b49c41515ee1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628114590721,
+          "stop" : 1628145849751,
+          "duration" : 31259030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0ccfd5ee6118bd81c0b49c41515ee1c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

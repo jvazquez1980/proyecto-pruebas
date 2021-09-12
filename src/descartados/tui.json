@@ -1,0 +1,40 @@
+{
+  "Cok": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'cookiesBtn')]"
+  },
+
+    "texto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='select-search']"
+  },
+    "promociones": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='mm-arr'][contains(text(),'Promociones')]"
+  },
+    "ver": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Ver ofertas')]"
+  },
+    "tipo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@class,'mm-arr')][contains(text(),'Tipos de viajes')]"
+  },
+    "tipo1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'A medida')])[2]"
+  },
+    "tipo2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Senior')])[2]"
+  },
+    "tipo3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Novios')])[2]"
+  },
+    "search": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='select-search']"
+    }
+
+}

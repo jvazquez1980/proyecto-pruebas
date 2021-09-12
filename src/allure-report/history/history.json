@@ -1,0 +1,63 @@
+{
+  "c4d8fab6563eea5c9950f4a0d1993629" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "594f1ab977ccce9a",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/3/allure/#testresult/594f1ab977ccce9a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=92.0.4515.131)\n\n",
+      "time" : {
+        "start" : 1628114590721,
+        "stop" : 1628145849751,
+        "duration" : 31259030
+      }
+    } ]
+  },
+  "9af62bf86174a8baeac888a350438af7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "adbefb2b83b931ac",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/3/allure/#testresult/adbefb2b83b931ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628114555723,
+        "stop" : 1628114590721,
+        "duration" : 34998
+      }
+    }, {
+      "uid" : "dab1d920398bd11d",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/2/allure/#testresult/dab1d920398bd11d",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1628113487071,
+        "stop" : 1628113608162,
+        "duration" : 121091
+      }
+    }, {
+      "uid" : "a5ce9e47505a10fd",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/1/allure/#testresult/a5ce9e47505a10fd",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1628112570199,
+        "stop" : 1628113029020,
+        "duration" : 458821
+      }
+    } ]
+  }
+}

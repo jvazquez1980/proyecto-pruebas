@@ -1,0 +1,71 @@
+{
+    "cockies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='onetrust-accept-btn-handler']"
+  },
+
+    "Configuracook": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(@id,'onetrust-pc-btn-handler')]"
+  },
+   "Permitir": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@tabindex='0'][contains(.,'Permitirlas todas')]"
+  },
+
+    "texto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@tooltip-placement,'top')]"
+  },
+
+  "calendario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='calendario1']"
+  },
+
+  "checkin": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//td[@class='active start-date available'][contains(.,'22')]"
+  },
+
+  "checkin2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//td[@class='available in-range'][contains(.,'29')]"
+  },
+
+  "buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//input[@id='submitBuscador'])[1]"
+  },
+
+  "seleccionar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[@href='javascript:void(0);'])[7]"
+  },
+
+  "dni": {
+    "GetFieldBy": "id",
+    "ValueToFind": "national-id-field"
+  },
+
+  "si": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Sí')]"
+  },
+
+  "aceptar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='js-create-account-button']"
+  },
+
+  "condiciones": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'¿Cómo se utilizará tu información personal?')]"
+  },
+
+  "contra":{
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  }
+
+ }

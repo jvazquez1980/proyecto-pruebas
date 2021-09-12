@@ -1,0 +1,21 @@
+[ {
+  "uid" : "594f1ab977ccce9a",
+  "name" : "Comprar producto baby shower sin error mail",
+  "time" : {
+    "start" : 1628114590721,
+    "stop" : 1628145849751,
+    "duration" : 31259030
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "adbefb2b83b931ac",
+  "name" : "Comprar producto baby shower con error mail",
+  "time" : {
+    "start" : 1628114555723,
+    "stop" : 1628114590721,
+    "duration" : 34998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

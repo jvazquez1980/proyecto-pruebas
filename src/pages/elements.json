@@ -1,0 +1,231 @@
+{
+  "LogoI": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='logo']"
+  },
+  "AceptarCockies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='agree-cookies']"
+  },
+  "ADE": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='accesibility-button']"
+  },
+   "ver ": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Ver otros números"
+  },
+  "llamar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='mobile-call-center']"
+  },
+
+  "llamame": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Te llamamos gratis ahora')]"
+  },
+  "text": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),{})]"
+  },
+
+  "closephone": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(@class,'webphonelight-close-icon webphonelight-close')]"
+  },
+  "formulario": {
+    "GetFieldBy": "link",
+    "ValueToFind": "ir al formulario"
+  },
+
+  "SobreNosotrosHeader": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@class,'small')]"
+  },
+  "correo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@name,'session[email]')]"
+  },
+  "MiIberostar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Mi Iberostar')]"
+  },
+  "contraseña": {
+    "GetFieldBy": "id",
+    "ValueToFind": "//input[@id='iberostar_api_user_session_password']"
+  },
+  "login": {
+    "GetField": "Xpath",
+    "ValueToFind": "//button[contains(.,'Iniciar sesión')]"
+  },
+  "CambiarMoneda": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//select[contains(@name,'currency')])[1]"
+  },
+
+  "cambiarCambiarMoneda": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='secondary-btn update-currency']"
+  },
+  "hoteles": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Hoteles y destinos"
+  },
+  "hoteleuropa": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Europa')]"
+  },
+  "vertodos": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Ver todos los hoteles en Europa"
+  },
+
+  "oferta": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Ofertas"
+  },
+
+  "GestionarReserva": {
+    "GetFieldBy": "link_text",
+    "ValueToFind": "Gestionar reservas"
+  },
+
+  "mibusqueda": {
+    "GetFieldBy": "link_text",
+    "ValueToFind": "Mis últimas búsquedas"
+  },
+  "ModuloBajoFastbooking": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='media-wrapper']//div[2]"
+  },
+  "ModuloBajoFastbooking1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[1]"
+  },
+
+  "ModuloBajoFastbooking2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[2]"
+  },
+
+  "ModuloBajoFastbooking4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[4]"
+  },
+
+  "ModuloBajoFastbooking3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[3]"
+  },
+  "Entornoseguro":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[1]"
+  },
+  "Estandaresdehigiene":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[2]"
+
+  },
+  "Espaciosocial":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[3]]"
+  },
+  "Destacado2":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//h2[contains(text(),'Alojamiento de Niños Gratis')]"
+  },
+  "VerHotelSugerido1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[1]//div[1]//div[2]//div[2]//a[1]"
+  },
+  "VerHotelSugerido2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[2]//div[1]//div[2]//div[2]//a[1]"
+  },
+  "VerHotelSugerido3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[3]//div[1]//div[2]//div[2]//a[1]"
+  },
+  "VerHotelSugerido4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "///li[4]//div[1]//div[2]//div[2]//a[1]"
+  },
+  "FAQ": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@name,'_anchor')]//div[contains(@class,'wrapper')]"
+  },
+  "WaveOfChange": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'block b-home-info-video js-webpack-block')]//div[contains(@class,'wrapper')]"
+
+  },
+  "SobreNosotrosHeaderiberostar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//p[contains(text(),'SobreNosotrosHeader iberostar')]"
+
+  },
+  "EligeTuExperienciaUnicaInovadora": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'js-webpack-block block infographic-modules mt-6 mb-4')]//li[4]"
+
+  },
+  "ServiciosUnicosIberostar2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h4[contains(text(),'Descárgatela')]"
+
+  },
+  "ServiciosUnicosIberostar3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h4[contains(text(),'Web Check-in')]"
+
+  },
+  "ServiciosUnicosIberostar4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h4[contains(text(),'Descárgatela')]"
+
+  },
+  "ServiciosUnicosIberostar1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h4[contains(text(),'Inspírate')]"
+  },
+
+  "EligeTuExperienciaUnica1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(@class,'content')])[55]"
+
+  },
+  "EligeTuExperienciaUnica2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(@class,'content')])[56]"
+
+  },
+  "EligeTuExperienciaUnica3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(@class,'content')])[57]"
+
+  },
+  "EligeTuExperienciaUnica4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(@class,'content')])[58]"
+
+  },
+  "FotterTipoDeHotel1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'hotel-list-segmentations')]//li[1]"
+
+  },
+  "FotterTipoDeHotel2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'hotel-list-segmentations')]//li[2]"
+
+  },
+  "FotterTipoDeHotel3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'hotel-list-segmentations')]//li[3]"
+
+  },
+  "FotterTipoDeHotel4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'hotel-list-segmentations')]//li[4]"
+  }
+}

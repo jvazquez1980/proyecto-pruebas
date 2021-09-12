@@ -1,0 +1,33 @@
+{
+  "9af62bf86174a8baeac888a350438af7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dab1d920398bd11d",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/2/allure/#testresult/dab1d920398bd11d",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1628113487071,
+        "stop" : 1628113608162,
+        "duration" : 121091
+      }
+    }, {
+      "uid" : "a5ce9e47505a10fd",
+      "reportUrl" : "http://localhost:7000/job/BabyShower/1/allure/#testresult/a5ce9e47505a10fd",
+      "status" : "broken",
+      "statusDetails" : "KeyboardInterrupt\n",
+      "time" : {
+        "start" : 1628112570199,
+        "stop" : 1628113029020,
+        "duration" : 458821
+      }
+    } ]
+  }
+}

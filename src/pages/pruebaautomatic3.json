@@ -1,0 +1,68 @@
+{
+
+  "despegable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='files']"
+  },
+  "Cookies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@id='cookieChoiceDismiss']"
+  },
+  "Select": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[contains(@name,'RESULT_RadioButton-9')]"
+  },
+  "Animal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[contains(@name,'animals')]"
+  },
+  "Source": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//p[contains(.,'Drag me to my target')]"
+  },
+  "Target": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//p[contains(.,'Drop here')]"
+  },
+  "Male": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RESULT_RadioButton-7_0"
+  },
+    "submit": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'submit')]"
+  },
+    "Checkbox0": {
+    "GetFieldBy": "name",
+    "ValueToFind": "RESULT_CheckBox-8_0"
+  },
+    "Checknuevo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Checkboxes')]"
+  },
+    "Checkbox1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//input[contains(@type,'checkbox')])[1]"
+  },
+    "Checkbox2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//input[contains(@type,'checkbox')])[2]"
+  },
+    "dragdrop": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Drag and Drop')]"
+  },
+    "source2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='column-a']"
+  },
+    "target2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='column-b']"
+  },
+    "date":{
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='datepicker']"
+  }
+
+ }

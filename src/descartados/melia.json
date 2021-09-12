@@ -1,0 +1,40 @@
+{
+  "Cok": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@id='consent_prompt_submit']"
+  },
+
+    "destino": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='mbe-destination-input']"
+  },
+    "fechas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='mbe-dates-select']"
+  },
+    "Fi": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'20')])[2]"
+  },
+    "Ff": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'23')])[2]"
+  },
+    "Colec": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'COLLECTIONS')]"
+  },
+    "menu": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//i[@class='icon-menu']"
+  },
+    "aceptar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@class='mbe-btn'][contains(text(),'Aceptar')]"
+  },
+    "search": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Buscar')]"
+    }
+
+}

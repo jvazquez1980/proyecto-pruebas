@@ -1,0 +1,351 @@
+{
+  "uid" : "594f1ab977ccce9a",
+  "name" : "Comprar producto baby shower sin error mail",
+  "historyId" : "c4d8fab6563eea5c9950f4a0d1993629",
+  "time" : {
+    "start" : 1628114590721,
+    "stop" : 1628145849751,
+    "duration" : 31259030
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=92.0.4515.131)\n\n",
+  "statusTrace" : "  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 31, in step_impl\n    Selenium.abrir_navegador(self, URL=URL)\n  File \"C:\\Users\\javit\\PycharmProjects\\Proyectos\\src\\functions\\Functions.py\", line 41, in abrir_navegador\n    self.driver = webdriver.Chrome(chrome_options=options, executable_path=Inicializar.basedir + \"\\\\drivers\\\\chromedriver.exe\")\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 81, in __init__\n    desired_capabilities=desired_capabilities)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 157, in __init__\n    self.start_session(capabilities, browser_profile)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 252, in start_session\n    response = self.execute(Command.NEW_SESSION, parameters)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=92.0.4515.131)\n\n",
+    "statusTrace" : "  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 31, in step_impl\n    Selenium.abrir_navegador(self, URL=URL)\n  File \"C:\\Users\\javit\\PycharmProjects\\Proyectos\\src\\functions\\Functions.py\", line 41, in abrir_navegador\n    self.driver = webdriver.Chrome(chrome_options=options, executable_path=Inicializar.basedir + \"\\\\drivers\\\\chromedriver.exe\")\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 81, in __init__\n    desired_capabilities=desired_capabilities)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 157, in __init__\n    self.start_session(capabilities, browser_profile)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 252, in start_session\n    response = self.execute(Command.NEW_SESSION, parameters)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given Inicilizo la app en la URL https://www.babyshower.es/es/",
+      "time" : {
+        "start" : 1628114590729,
+        "stop" : 1628145849751,
+        "duration" : 31259022
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=92.0.4515.131)\n\n",
+      "statusTrace" : "  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\programas\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 31, in step_impl\n    Selenium.abrir_navegador(self, URL=URL)\n  File \"C:\\Users\\javit\\PycharmProjects\\Proyectos\\src\\functions\\Functions.py\", line 41, in abrir_navegador\n    self.driver = webdriver.Chrome(chrome_options=options, executable_path=Inicializar.basedir + \"\\\\drivers\\\\chromedriver.exe\")\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 81, in __init__\n    desired_capabilities=desired_capabilities)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 157, in __init__\n    self.start_session(capabilities, browser_profile)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 252, in start_session\n    response = self.execute(Command.NEW_SESSION, parameters)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\programas\\python3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And Cargo el DOM de la App: baby",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en Cookies",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en casa",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago scroll hacia el elemento: producto2",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Espero el elemento: producto1",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en producto1",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en cesta",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then En el campo paso1mail tecleo mailo@gmail.com",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en continuar",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Espero el elemento: contrasena",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then En el campo contrasena tecleo Prueba400",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And En el campo nombre tecleo Prueba",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And En el campo apellidos tecleo Valida",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en checkboxacepto",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en continuar",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Espero 2 segundos",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Tomar Captura: baby1",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then cierro la app",
+      "time" : {
+        "start" : 1628145849751,
+        "stop" : 1628145849751,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 19,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "baby"
+  }, {
+    "name" : "feature",
+    "value" : "Bay shower pruebas"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "baby" ]
+  },
+  "source" : "594f1ab977ccce9a.json",
+  "parameterValues" : [ ]
+}

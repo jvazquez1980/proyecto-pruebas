@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 05 00:02:35 CEST 2021","Thu Aug 05 00:03:10 CEST 2021","34998","","","","","","Comprar producto baby shower con error mail",""
+"broken","Thu Aug 05 00:03:10 CEST 2021","Thu Aug 05 08:44:09 CEST 2021","31259030","","","","","","Comprar producto baby shower sin error mail",""

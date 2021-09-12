@@ -1,0 +1,39 @@
+{
+    "opcion1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[contains(@class,'label')])[1]"
+  },
+    "texto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='search-destination']"
+  },
+  "calendario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='search-dateIn-boo']"
+  },
+  "checkin": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='search-dateIn-boo']"
+  },
+  "checkin2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='search-dateout-boo']"
+  },
+  "fechai": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'28')])[1]"
+  },
+  "fechaf": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'30')])[2]"
+  },
+  "buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Buscar')]"
+  },
+  "seleccionar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Ver los alojamientos')]"
+  }
+
+ }

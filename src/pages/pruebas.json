@@ -1,0 +1,276 @@
+{
+  "elementos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h5[contains(text(),'Elements')]"
+  },
+  "textbox": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[contains(.,'Text Box')]"
+  },
+  "name": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='userName']"
+  },
+  "submit": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='submit']"
+  },
+  "direccion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//textarea[@id='currentAddress']"
+  },
+    "perdireccion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//textarea[@id='permanentAddress']"
+  },
+    "mail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='userEmail']"
+  },
+    "home": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Home')]"
+  },
+    "desplegar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ol[1]/li[1]/span[1]/button[1]/*[1]"
+  },
+    "documentos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/ol[1]/li[1]/ol[1]/li[2]/span[1]/button[1]/*[1]"
+  },
+    "checkbox": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[@class='text'])[2]"
+  },
+    "radiobutton": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Radio Button')]"
+  },
+    "Impresive": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[contains(text(),'Impressive')]"
+  },
+  "webtables": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Web Tables')]"
+  },
+    "search": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='searchBox']"
+  },
+  "links": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//li[@id='item-5'])[1]"
+  },
+  "inicio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@id,'simpleLink')]"
+  },
+  "right": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='button'][contains(.,'Right Click Me')]"
+  },
+  "moved": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(.,'Moved')]"
+  },
+  "clicme": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='button'][contains(.,'Right Click Me')]"
+  },
+  "button": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[contains(.,'Buttons')]"
+  },
+  "forms": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(.,'Forms')])[7]"
+  },
+  "practriceform": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Practice Form')]"
+  },
+  "nombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='firstName']"
+  },
+  "lastname": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='lastName']"
+  },
+  "mailform": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='userEmail']"
+  },
+  "male": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[contains(text(),'Male')]"
+  },
+  "tlf": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='userNumber']"
+  },
+  "date": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='dateOfBirthInput']"
+  },
+  "octubre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(.,'28')])[23]"
+  },
+  "subject": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']"
+  },
+  "sport": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[contains(text(),'Sports')]"
+  },
+  "adress": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//textarea[@id='currentAddress']"
+  },
+  "dropsatate": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(.,'Select State')])[12]"
+  },
+  "textelement": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'{NCR}')]"
+  },
+  "hayna": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class=' css-1n7v3ny-option'][contains(.,'Haryana')]"
+  },
+  "dropscity": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[contains(.,'Select City')])[8]"
+  },
+  "Agra": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class=' css-1hwfws3'][contains(.,'Karnal')]"
+  },
+  "sub": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='submit']"
+  },
+  "alertgeneral": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h5[contains(text(),'Alerts, Frame & Windows')]"
+  },
+  "brower": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Browser Windows')]"
+  },
+  "window": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='tabButton']"
+  },
+  "wemergente": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='windowButton']"
+  },
+  "wmensaje": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='messageWindowButton']"
+  },
+  "inter": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h5[contains(.,'Interactions')]"
+  },
+  "soportable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[contains(.,'Sortable')]"
+  },
+  "grid": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@id='demo-tab-grid']"
+  },
+  "dos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='create-grid']//div[@class='list-group-item list-group-item-action'][contains(text(),'Two')]"
+
+  },
+  "3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='create-grid']//div[@class='list-group-item list-group-item-action'][contains(text(),'Three')]"
+
+  },
+  "one": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='create-grid']//div[@class='list-group-item list-group-item-action'][contains(text(),'One')]"
+
+  },
+  "alertsopcion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='text'][contains(.,'Alerts')]"
+  },
+  "aceptar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='alertButton']"
+  },
+  "aceptar2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='timerAlertButton']"
+  },
+  "aceptar3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='confirmButton']"
+  },
+  "aceptar4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='promtButton']"
+  },
+  "Bookstore": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h5[contains(.,'Book Store Application')]"
+  },
+  "Login": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li[contains(.,'Login')]"
+  },
+  "Usuario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='userName']"
+  },
+  "Password": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='password']"
+  },
+  "HacerLogin": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='login']"
+  },
+  "Widget": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='header-text'][contains(.,'Widgets')]"
+  },
+  "Progreso": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='text'][contains(.,'Progress Bar')]"
+  },
+  "Start": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='startStopButton']"
+  },
+  "Autcomppletar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Auto Complete')]"
+  },
+  "Color": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'auto-complete__value-container auto-complete__value-container--is-multi css-1hwfws3')]"
+
+  },
+  "red": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Red"
+
+  },
+  "NuevoUsuario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='newUser']"
+  }
+
+}

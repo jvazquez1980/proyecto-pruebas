@@ -1,0 +1,98 @@
+{
+  "key": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Key Presses')]"
+  },
+    "target": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='target']"
+  },
+    "Checkbox2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//input[contains(@type,'checkbox')])[2]"
+  },
+    "Seleccionar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[@class='primary-btn room0-btn'][contains(.,'Select')])[2]"
+  },
+    "Contextmenu": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Context Menu')]"
+  },
+    "rightclic": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='hot-spot']"
+  },
+    "Dinamic": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Dynamic Controls')]"
+  },
+    "Checkbox": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='checkbox']"
+  },
+    "Remove": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Remove')]"
+  },
+    "Enable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Enable')]"
+  },
+    "Disable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Disable')]"
+  },
+    "Escribir": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'text')]"
+  },
+    "File": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'File Upload')]"
+  },
+    "subirarchivo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='file-upload']"
+  },
+    "Subir": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='file-submit']"
+  },
+    "Elemental": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Elemental Selenium')]"
+  },
+     "Enable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Enabled')]"
+  },
+    "descargas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Downloads')]"
+  },
+    "PDF": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'PDF')]"
+  },
+    "clicderecho": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@id='hot-spot']"
+  },
+    "Valor1source": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@value='0']"
+  },
+     "Valor2target": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@max='5.0']"
+  },
+    "pruebadobleclic": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='select-demo']"
+  },
+    "continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='primary-btn noselect with-arrow'][contains(.,'Continue to personal information')]"
+  }
+}

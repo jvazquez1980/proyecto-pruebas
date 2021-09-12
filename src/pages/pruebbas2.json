@@ -1,0 +1,44 @@
+{
+
+  "drop": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='dropdown']"
+  },
+
+  "d": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Dropdown')]"
+  },
+
+  "anadir": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[@type='button'][contains(.,'Añadir al carrito')])[1]"
+  },
+
+  "inicio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//img[@alt='Tu tienda']"
+  },
+
+  "mac": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//img[@alt='MacBook']"
+  },
+
+  "mac4": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//img[@alt='MacBook'])[4]"
+  },
+
+  "carrito": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//header/div[1]/div[1]/div[3]/div[1]/button[1]"
+  },
+
+  "vercarrito":{
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//font[contains(.,'Ver carrito')])[2]"
+  }
+
+
+ }

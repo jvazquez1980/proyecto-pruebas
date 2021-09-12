@@ -1,0 +1,64 @@
+{
+
+    "mail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='login']"
+  },
+
+    "ok": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='js-login-button']"
+  },
+
+  "hombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Hombre')]"
+  },
+
+  "nombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='firstname']"
+  },
+
+  "apellido": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='lastname']"
+  },
+
+  "apellido1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='middlename']"
+  },
+
+  "tfl": {
+    "GetFieldBy": "id",
+    "ValueToFind": "mobile"
+  },
+
+  "dni": {
+    "GetFieldBy": "id",
+    "ValueToFind": "national-id-field"
+  },
+
+  "Cockies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='didomi-notice-agree-button']"
+  },
+
+  "mail1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='item__title'][contains(.,'Correo electronico')]"
+  },
+
+  "condiciones": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'¿Cómo se utilizará tu información personal?')]"
+  },
+
+  "contra":{
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  }
+
+
+ }

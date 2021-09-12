@@ -1,0 +1,372 @@
+{
+  "uid" : "adbefb2b83b931ac",
+  "name" : "Comprar producto baby shower con error mail",
+  "historyId" : "9af62bf86174a8baeac888a350438af7",
+  "time" : {
+    "start" : 1628114555723,
+    "stop" : 1628114590721,
+    "duration" : 34998
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Inicilizo la app en la URL https://www.babyshower.es/es/",
+      "time" : {
+        "start" : 1628114555723,
+        "stop" : 1628114563764,
+        "duration" : 8041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Cargo el DOM de la App: baby",
+      "time" : {
+        "start" : 1628114563764,
+        "stop" : 1628114563764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en Cookies",
+      "time" : {
+        "start" : 1628114563764,
+        "stop" : 1628114567506,
+        "duration" : 3742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en casa",
+      "time" : {
+        "start" : 1628114567506,
+        "stop" : 1628114572869,
+        "duration" : 5363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago scroll hacia el elemento: producto2",
+      "time" : {
+        "start" : 1628114572869,
+        "stop" : 1628114572897,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Espero el elemento: producto1",
+      "time" : {
+        "start" : 1628114572897,
+        "stop" : 1628114573028,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en producto1",
+      "time" : {
+        "start" : 1628114573028,
+        "stop" : 1628114573172,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Hago clic en cesta",
+      "time" : {
+        "start" : 1628114573172,
+        "stop" : 1628114579461,
+        "duration" : 6289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then En el campo paso1mail tecleo javitxuelo@gmail.com",
+      "time" : {
+        "start" : 1628114579461,
+        "stop" : 1628114579683,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en continuar",
+      "time" : {
+        "start" : 1628114579683,
+        "stop" : 1628114579862,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Espero el elemento: contrasena",
+      "time" : {
+        "start" : 1628114579862,
+        "stop" : 1628114581088,
+        "duration" : 1226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then En el campo contrasena tecleo Prueba400",
+      "time" : {
+        "start" : 1628114581088,
+        "stop" : 1628114581873,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And En el campo nombre tecleo Pruebafallida",
+      "time" : {
+        "start" : 1628114581873,
+        "stop" : 1628114582196,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And En el campo nombre tecleo apellidos",
+      "time" : {
+        "start" : 1628114582196,
+        "stop" : 1628114582340,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en checkboxacepto",
+      "time" : {
+        "start" : 1628114582340,
+        "stop" : 1628114582500,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Hago clic en continuar",
+      "time" : {
+        "start" : 1628114582500,
+        "stop" : 1628114586290,
+        "duration" : 3790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Espero 2 segundos",
+      "time" : {
+        "start" : 1628114586290,
+        "stop" : 1628114588314,
+        "duration" : 2024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Tomar Captura: baby1",
+      "time" : {
+        "start" : 1628114588314,
+        "stop" : 1628114588514,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then cierro la app",
+      "time" : {
+        "start" : 1628114588522,
+        "stop" : 1628114590721,
+        "duration" : 2199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 19,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "baby"
+  }, {
+    "name" : "feature",
+    "value" : "Bay shower pruebas"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "dab1d920398bd11d",
+        "reportUrl" : "http://localhost:7000/job/BabyShower/2/allure/#testresult/dab1d920398bd11d",
+        "status" : "broken",
+        "statusDetails" : "KeyboardInterrupt\n",
+        "time" : {
+          "start" : 1628113487071,
+          "stop" : 1628113608162,
+          "duration" : 121091
+        }
+      }, {
+        "uid" : "a5ce9e47505a10fd",
+        "reportUrl" : "http://localhost:7000/job/BabyShower/1/allure/#testresult/a5ce9e47505a10fd",
+        "status" : "broken",
+        "statusDetails" : "KeyboardInterrupt\n",
+        "time" : {
+          "start" : 1628112570199,
+          "stop" : 1628113029020,
+          "duration" : 458821
+        }
+      } ]
+    },
+    "tags" : [ "baby" ]
+  },
+  "source" : "adbefb2b83b931ac.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,75 @@
+{
+  "Cockies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='agree-cookies']"
+  },
+    "Escribetudestino": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[contains(@class,'fake-select') and contains(.,'Escribe')]"
+  },
+    "write": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//input[contains(@type,'text')])[2]"
+  },
+    "hotelplaya": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Ver hotel')])[8]"
+  },
+
+    "consultahotel": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(.,'¡Qué alegría volver a verte!')]"
+  },
+
+    "txt_hotel": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[contains(@class,'chosen-search')]"
+  },
+    "opcion1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[@class='option'])[6]"
+  },
+    "opcion2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[@class='option'])[4]"
+  },
+    "Seleccionarfechas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind":  "//label[contains(@for,'vo_booking_check_in_date')]"
+  },
+    "I": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@data-id,'26082020')]"
+  },
+    "F": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@data-id,'30082020')]"
+  },
+    "Fastbooking": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(@id,'book-now')]"
+  },
+    "regimen":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//div[@id='regimen-4']//label[contains(text(),'Todo Incluido')]"
+
+  },
+    "tarifa":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//a[@taricodi='94']"
+  },
+
+    "nodificar":{
+    "GetFieldBy" : "Xpath",
+    "ValueToFind" : "//a[@class='sticky-txt-btn sticky-fastbooking']"
+  },
+    "actualizar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='book-now']"
+  },
+
+    "continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@id='btn-continue-form']"
+  }
+}

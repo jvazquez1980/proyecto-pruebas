@@ -1,0 +1,72 @@
+{
+  "Cok": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Estoy de acuerdo')]"
+  },
+  "Inicio": {
+    "GetFieldBy": "Id",
+    "ValueToFind": "svg_1"
+  },
+  "log": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[contains(@class,'ususinlog')]"
+  },
+   "name": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='username']"
+  },
+   "pass": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='password']"
+  },
+   "accede": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='recaptcha']"
+  },
+
+    "texto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='select-search']"
+  },
+    "Reservapaso1": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Tipos de viajes"
+  },
+    "Estancias": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[@onmouseover='cambiaImgTV(this)'][contains(.,'Estancias')])[2]"
+  },
+    "tipo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@class,'mm-arr')][contains(text(),'Tipos de viajes')]"
+  },
+    "tipo1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'A medida')])[2]"
+  },
+    "tipo2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Senior')])[2]"
+  },
+    "tipo3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Novios')])[2]"
+  },
+    "Reservar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Reservar')]"
+  },
+  "buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='btn-search']"
+  },
+  "laponia": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/section[4]/div[1]/div[1]/div[2]/div[6]/div[2]/img[1]"
+  },
+    "search": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='select-search']"
+    }
+
+}

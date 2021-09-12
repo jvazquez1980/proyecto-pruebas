@@ -1,0 +1,57 @@
+{
+
+    "despegable": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='files']"
+  },
+  "Cookies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(.,'Aceptar')])[1]"
+  },
+  "casa": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='cbp-tab-title'][contains(.,'CASA & DECO')]"
+  },
+  "producto1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[@class='add-to-cart-productlist'][contains(.,'Comprar')])[9]"
+  },
+  "cesta": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@alt,'Ver cesta')]"
+  },
+  "paso1mail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'email')]"
+  },
+  "continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Continuar')]"
+  },
+  "seguircomprando": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@class,'return')]"
+  },
+  "contrasena": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'password')]"
+  },
+  "nombre": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='name']"
+  },
+  "apellidos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='surname']"
+  },
+  "checkboxacepto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='gdpr']"
+  },
+  "producto2":{
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[@class='add-to-cart-productlist'][contains(.,'Comprar')])[5]"
+  }
+
+
+ }
