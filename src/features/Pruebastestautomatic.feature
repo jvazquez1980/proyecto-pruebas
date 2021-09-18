@@ -1,5 +1,5 @@
 # Created by javit at 28/07/21
-Feature: Pruebas qa varias
+Feature: Pruebas qa varias desde la web
 
   @Pruebaautomatic
   Scenario: Dropdown1
