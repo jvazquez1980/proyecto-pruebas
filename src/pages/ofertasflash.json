@@ -1,0 +1,82 @@
+{
+  "Cuando": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'¿Cuando?')]"
+  },
+  "Aceotarcoo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='agree-cookies']"
+  },
+    "vermasfechas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Ver más fechas')]"
+  },
+    "mes9": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='filter-name'][contains(.,'Septiembre (2021)')]"
+  },
+    "mes11": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='filter-name'][contains(.,'Noviembre (2021)')]"
+  },
+   "Brasil": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='filter-name'][contains(.,'Brasil')]"
+  },
+  "Montenegro": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='filter-name'][contains(.,'Montenegro')]"
+  },
+  "verdestinos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Ver más destinos')]"
+  },
+  "Filtrosgenerales": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Filtros general"
+  },
+    "4estrellas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@class='with-counter services-filter fk-check utag-filters shown'][contains(.,'Hotel en primera línea de mar')]"
+  },
+    "masinfo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//picture[contains(@class,'hotel-image  inview loaded')])[1]"
+  },
+    "reservar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@data-hotel-id,'h53')]"
+  },
+     "fechas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='vo_booking_check_in_date']"
+  },
+    "CTALANDINGS": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(@data-hotel-id,'h53')]"
+  },
+    "messiguiente": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[@class='next'])[2]"
+  },
+    "fechaentrada": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[@class='number '][contains(.,'8')])[8]"
+  },
+    "fechasalida": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[@class='number '][contains(.,'10')])[3]"
+  },
+    "Buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[@class='search'][contains(.,'Buscar')]"
+  },
+    "inicio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": " //picture[contains(@class,'logo-iberostar-white')]"
+  },
+   "mes10": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='filter-name'][contains(.,'Octubre (2021)')]"
+  }
+}
