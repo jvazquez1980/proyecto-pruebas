@@ -1,0 +1,75 @@
+{
+  "mail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='email']"
+  },
+
+    "cookies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Entendido')]"
+  },
+
+    "acceder": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Acceder')]"
+
+  },
+    "Selectorpais": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'EUR')]"
+  },
+    "GBP": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Reino Unido · GBP £"
+  },
+
+    "FBOOKING": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'search')]"
+  },
+   "IDdeFB3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(@class,'SearchResult-sc-8or6ba-2 XDSUC')])[3]"
+  },
+    "clickaceder": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Acceder')]"
+  },
+
+    "FB": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@type='search']"
+  },
+
+    "europea": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Europa')]"
+  },
+    "verviaje": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Europa')]"
+
+  },
+    "Selector": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Precios desde')]"
+
+  },
+   "text": {
+    "GetFieldBy": "Xpath",
+     "ValueToFind": "//a[@class='XLCardDetails__SeeTripLink-sc-10lpfi9-4 crlcbf']"
+
+  },
+
+    "CTA2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(.,'España (1)')]"
+  },
+
+    "CTA3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'Madrid')]"
+
+  }
+
+}

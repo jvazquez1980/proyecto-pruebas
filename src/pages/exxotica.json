@@ -1,0 +1,115 @@
+{
+    "cerrarmodal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='ModalLegacy__CloseIcon-sc-19z5mhe-2 hzxPQa']"
+  },
+
+    "cookies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(text(),'Entendido')]"
+  },
+    "Acceder": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='NavbarMenu__Title-sc-6aj9ht-1 dVtzvd'][contains(.,'Acceder')]"
+  },
+     "Accederclick": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@href='#login']"
+  },
+     "Accederboton": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='submit']//span[contains(text(),'Acceder')]"
+  },
+    "Assertmail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//small[contains(.,'Campo obligatorio')]"
+  },
+    "Campomail": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='email']"
+  },
+    "Campopasswrod": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='pass']"
+  },
+    "Assertionmailincorrecto": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@type='error']"
+  },
+    "acceder": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Acceder')]"
+
+  },
+    "Selectorpais": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'EUR')]"
+  },
+    "Selectordestino": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[@id='__next']/main[@class='MainLayout__ContentWrapper-sc-pgl3hz-0 etScod content-wrapper']/div[@id='campaign']/div[@class='MuiContainer-root MuiContainer-maxWidthLg']/div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2']/div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-md-4']/div[@id='sidebar']/div[@class='MuiGrid-root MuiGrid-container']/div[1]/div[1]/div[1]/button[1]"
+  },
+    "GBP": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Reino Unido · GBP £"
+  },
+
+    "FBOOKING": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@type,'search')]"
+  },
+    "IDdeFB3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//a[contains(@class,'SearchResult-sc-8or6ba-2 XDSUC')])[3]"
+  },
+    "clickaceder": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Acceder')]"
+  },
+
+    "europea": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Europa')]"
+  },
+    "verviaje": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Europa')]"
+
+  },
+    "Selector": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'Precios desde')]"
+
+  },
+   "text": {
+    "GetFieldBy": "Xpath",
+     "ValueToFind": "//a[@class='XLCardDetails__SeeTripLink-sc-10lpfi9-4 crlcbf']"
+
+  },
+   "Destino": {
+    "GetFieldBy": "Xpath",
+     "ValueToFind": "//div[contains(text(),'Mallorca')]"
+
+  },
+    "ElegirFecha": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='Calendar__DayCell-sc-1fpdu-1 jSrscM withPrice']//div[@class='Calendar__DayNumber-sc-1fpdu-2 guQprK'][contains(text(),'16')]"
+  },
+    "CTA2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(.,'España (1)')]"
+  },
+    "Continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'Shade-sc-110fka4-0 ksMYHv')]"
+  },
+    "Pasoç3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@type='search']"
+  },
+    "verprecios": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[contains(@class,'StyledButton-sc-1f6im24-0 cMDcpB')])[1]"
+  }
+
+}
